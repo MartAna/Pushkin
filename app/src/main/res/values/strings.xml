@@ -2,4 +2,8 @@
     <string name="app_name">Pushkin</string>
     <string name="request_hint">Ваше имя</string>
     <string name="request_age_hint">Ваш возраст</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="save">Save</string>
+    <string name="study">Study</string>
+    <string name="plus">Добавить</string>
 </resources>

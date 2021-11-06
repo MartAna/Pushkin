@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="your_name">Ваше имя</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="study">Study</string>
+    <string name="plus">Добавить</string>
 </resources>

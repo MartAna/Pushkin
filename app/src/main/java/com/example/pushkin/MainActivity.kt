@@ -1,14 +1,17 @@
 package com.example.pushkin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import com.google.android.material.textfield.TextInputEditText
 
 
 private const val MY_LOG_TAG = "MyLog"
 private const val VALUE = "Value"
+private const val KEY = "Hello_Key"
 
 lateinit var requestInput: TextInputEditText
 
@@ -37,6 +40,16 @@ class MainActivity : AppCompatActivity() {
 
 
         Log.d(MY_LOG_TAG, "Сижу за решеткой в темнице сырой.\n Вскормленный в неволе орел молодой,")
+
+        val saveButton: Button = findViewById(R.id.save_button)
+
+        val intent = Intent(this, SecondActivity::class.java)
+        intent.putExtra(KEY, "Привет от редактора!")
+
+        saveButton.setOnClickListener {
+            startActivity(intent)
+        }
+
 
 
 
