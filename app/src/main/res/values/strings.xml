@@ -3,7 +3,9 @@
     <string name="request_hint">Ваше имя</string>
     <string name="request_age_hint">Ваш возраст</string>
     <string name="secondactivity">SecondActivity</string>
-    <string name="save">Save</string>
+    <string name="save">Кнопка 1</string>
     <string name="study">Study</string>
     <string name="plus">Добавить</string>
+    <string name="save_2">Кнопка 2</string>
+    <string name="button_work">Кнопка работает</string>
 </resources>
